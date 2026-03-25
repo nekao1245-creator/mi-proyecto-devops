@@ -107,6 +107,66 @@ Cambiar entre ramas:
     git checkout main
     git checkout feature-update
 
+# Proyecto Web - Flujo DevOps con Git y GitHub
+
+## Descripción del proyecto
+Este proyecto fue desarrollado como parte de una práctica para aprender el uso de Git y GitHub dentro de un flujo básico de DevOps.  
+El objetivo principal es comprender cómo organizar un proyecto web, aplicar control de versiones, trabajar con ramas y documentar correctamente un proyecto de software.
+
+El proyecto consiste en una página web sencilla desarrollada con HTML y CSS, gestionada mediante Git y alojada en un repositorio de GitHub.
+
+---
+
+# Objetivo
+Practicar el uso de Git y GitHub dentro de un flujo básico de desarrollo, aplicando control de versiones, creación de ramas y documentación del proyecto.
+
+---
+
+# Estructura del repositorio
+
+mi-proyecto-devops/
+│
+├── src/
+│ ├── index.html
+│ └── styles.css
+│
+├── scripts/
+│ └── deploy.sh
+│
+├── README.md
+└── .gitignore
 
 
+---
+
+# Cambios realizados en la Actividad 3
+
+Durante esta actividad se realizaron varias mejoras en el proyecto:
+
+- Se agregaron **comentarios dentro del código HTML** para mejorar la documentación.
+- Se añadió una nueva sección llamada **"Herramientas utilizadas"** dentro de la página.
+- Se mejoró la estructura del contenido del proyecto.
+- Se agregó un pequeño ajuste en el archivo CSS:
+
+Herramientas utilizadas
+
+En este proyecto se utilizaron diferentes herramientas para simular un flujo básico de DevOps y control de versiones:
+
+Git: sistema de control de versiones para registrar cambios en el código.
+GitHub: plataforma para almacenar el repositorio del proyecto.
+Visual Studio Code: editor de código utilizado para desarrollar el proyecto.
+HTML y CSS: tecnologías utilizadas para la estructura y el diseño de la página.
+
+Flujo de trabajo utilizado
+
+Para el desarrollo del proyecto se utilizó un flujo de trabajo basado en ramas de Git.
+
+Se crearon dos ramas principales para trabajar de forma colaborativa:
+
+feature-content
+Rama donde se trabajaron los cambios relacionados con el contenido del sitio web.
+feature-refactor
+Rama donde se realizaron mejoras en la estructura y organización del código.
+
+Cada integrante trabajó en su propia rama y posteriormente los cambios se integraron al proyecto principal.
 
