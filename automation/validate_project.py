@@ -12,6 +12,18 @@ if not os.path.exists("src/styles.css"):
 if not os.path.exists("README.md") or os.path.getsize("README.md") == 0:
     errors.append("README.md no existe o está vacío")
 
+# leer index.html
+with open("src/index.html", "r", encoding="utf-8") as f:
+    html = f.read()
+
+# validar h1
+if html.count("<h1>") < 1:
+    errors.append("index.html debe contener un h1")
+
+# validar párrafo
+if html.count("<p>") < 1:
+    errors.append("index.html debe contener al menos un párrafo")
+
 if errors:
     print("Errores encontrados:")
     for error in errors:
